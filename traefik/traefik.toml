@@ -39,7 +39,7 @@ acmeLogging=true
 onDemand = false #create certificate when container is created
 [acme.dnsChallenge]
   provider = "cloudflare"
-  delayBeforeCheck = 300
+  delayBeforeCheck = 10
 [[acme.domains]]
    main = "domain.tld"
 [[acme.domains]]
